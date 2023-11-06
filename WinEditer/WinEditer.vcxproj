@@ -133,6 +133,7 @@
     <ClInclude Include="WinEditer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="SourceEdit.cpp" />
     <ClCompile Include="WinEditer.cpp" />
   </ItemGroup>
   <ItemGroup>

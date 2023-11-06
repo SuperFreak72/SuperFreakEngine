@@ -32,6 +32,9 @@
     <ClCompile Include="WinEditer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SourceEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WinEditer.rc">
