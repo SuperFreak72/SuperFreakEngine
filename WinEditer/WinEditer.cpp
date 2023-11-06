@@ -17,13 +17,15 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
-                     _In_opt_ HINSTANCE hPrevInstance,
-                     _In_ LPWSTR    lpCmdLine,
-                     _In_ int       nCmdShow)
+int APIENTRY wWinMain(_In_ HINSTANCE hInstance, //프로그램의 인스턴스 핸들
+                     _In_opt_ HINSTANCE hPrevInstance, //바로 앞 실행된 현재 프로그램의 인스턴스 핸들, 없으면 NULL
+                     _In_ LPWSTR    lpCmdLine, // 명령행으로 입력된 프로그램 인수 라고 한다
+                     _In_ int       nCmdShow) // 프로그램이 실행될 형태 , 모양과 정보 등이 전달된다.
 {
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
+    
+    
 
     // TODO: 여기에 코드를 입력합니다.
 
